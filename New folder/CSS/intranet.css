@@ -1,0 +1,1273 @@
+
+body,td,th {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.header{
+	width:100%;
+	height:82px;
+	}
+	
+.header-left{
+	width:625px;
+	float:left;
+	height:57px;
+	padding-top:25px;
+	}
+	
+.search-textbox{
+	background-color:#e3e4e3;
+	height:20px;
+	border:#e3e4e3 solid 1px;
+	}
+
+.profile-heading{
+	color:#133d8c;
+	padding-top:5px;
+	font-weight:bold;
+	}
+
+.header-right{
+	float:right;
+	height:57px;
+	padding-top:25px;
+	}
+	
+.header-right ul{
+	float:right;
+	height:30px;
+	}
+	
+.header-right li{
+	float:left;
+	height:30px;
+	padding-right:8px;
+	list-style:none;
+	}
+
+.main-container{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	}
+	
+.container{
+	margin:  0 auto;
+	width:1120px;
+	height:100%;
+	overflow:hidden;
+	}
+
+.menu-bg{
+	background:url(../Images/menu-bg.jpg) repeat-x top left;
+	height:44px;
+	}
+
+	
+/* home Banner
+-------------------------------------------------------------- */
+
+	
+/* Text headings
+-------------------------------------------------------------- */
+
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	line-height:18px;
+	padding:5px 0;
+	margin:0;
+	color:#133d8c;
+	}
+	
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	line-height:18px;
+	padding:5px 0;
+	margin:0;
+	color:#133d8c;
+	}
+	
+h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	line-height:18px;
+	padding:5px 0;
+	margin:0;
+	color:#133d8c;
+	}
+
+/* Buttons
+-------------------------------------------------------------- */
+.button-Readmore{
+	font-size:11px;
+	font-weight:bold;
+	line-height:16px;
+	color:#000;
+	text-align:center;
+	text-transform:uppercase;
+	width:90px;
+	margin: 15px 0;
+	position:relative;
+}
+
+.button-Readmore a{
+	background:#f16530;
+	color:#fff;
+	text-decoration:none;
+	margin:0;
+	padding:8px;
+
+}
+
+.button-Readmore a:hover{
+	background:#d7521f;
+	color:#FFF;
+	text-decoration:none;
+	margin:0;
+	padding:8px;
+}
+
+.button-india{
+	font-size:11px;
+	font-weight:bold;
+	line-height:16px;
+	color:#000;
+	text-align:center;
+	text-transform:uppercase;
+	width:47px;
+	margin: 15px 0;
+	float:left;
+}
+
+.button-india a{
+	background:#f16530;
+	color:#fff;
+	text-decoration:none;
+	margin:0;
+	padding:8px;
+
+}
+
+.button-india a:hover{
+	background:#d7521f;
+	color:#FFF;
+	text-decoration:none;
+	margin:0;
+	padding:8px;
+}	
+
+.button-usa{
+	font-size:11px;
+	font-weight:bold;
+	line-height:16px;
+	color:#000;
+	text-align:center;
+	text-transform:uppercase;
+	width:38px;
+	margin: 15px 0;
+	position:relative;
+	float:left;
+}
+
+.button-usa a{
+	background:#133d8c;
+	color:#fff;
+	text-decoration:none;
+	margin:0;
+	padding:8px;
+
+}
+
+.button-usa a:hover{
+	background:#214d9e;
+	color:#FFF;
+	text-decoration:none;
+	margin:0;
+	padding:8px;
+}	
+	
+.button-general{
+	font-size:11px;
+	font-weight:bold;
+	line-height:16px;
+	color:#000;
+	text-align:left;
+	text-transform:uppercase;
+	width:150px;
+	margin: 15px 0;
+	position:relative;
+	float:left;
+}
+
+.button-general a{
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+	margin:0;
+	padding:8px;
+
+}
+
+.button-general a:hover{
+	color:#133d8c;
+	text-decoration:none;
+	margin:0;
+	padding:8px;
+	font-weight:bold;
+}
+	
+	
+/* home hightlight
+-------------------------------------------------------------- */
+.content-bg{
+	height:100%;
+	overflow:hidden;
+	}
+	
+.highlight-ctr{
+	background:url(../Images/hilight-shadow.jpg) no-repeat bottom ;
+	height:108px;
+	margin-bottom:10px;
+	}
+
+.highlight-ctr ul{
+	padding:0;
+	margin:0;
+	}
+	
+.highlight-ctr li{
+	padding:0;
+	margin:0;
+	float:left;
+	list-style:none;
+	display:block;
+	}
+
+/* Vertical Blocks
+-------------------------------------------------------------- */
+.second-ctr{
+	width:100%;
+	height:100%;
+	}
+
+/* Vertical Blocks - Message from CEO
+----------------------------------------- */
+
+.message-area{
+	width:265px;
+	float:left;
+	height:480px;
+	background-color:#f7f6f6;
+	margin-right:20px;
+	}
+	
+.message-ceo-ctr{
+	padding:10px;
+	}
+	
+.message-ceo-ctr img{
+	padding:5px;
+	}
+	
+.message-ceo-ctr p{
+	line-height:20px;
+	padding:5px;
+	margin:0;
+	}
+	
+	/* Vertical Blocks - Profile of the day
+--------------------------------------------------- */
+
+.profile-area{
+	width:265px;
+	float:left;
+	height:480px;
+	background-color:#f7f6f6;
+	}
+	
+.profile-area-ctr{
+	padding:10px;
+	}
+	
+.profile-area-ctr img{
+	padding:5px;
+	}
+	
+.profile-area-ctr p{
+	line-height:20px;
+	padding:5px;
+	margin:0;
+	}
+	
+	/* Vertical Blocks - Middle
+--------------------------------------------------- */
+	
+.middle-area{
+	width:265px;
+	float:left;
+	height:100%;
+	margin-right:20px;
+	}
+	
+	/* Vertical Blocks - Holidays
+--------------------------------------------------- */
+.holidays{
+	width:245px;
+	height:100%;
+	margin-bottom:20px;
+	background-color:#f7f6f6;
+	padding:10px;
+	overflow:hidden;
+	}
+	
+.holidays ul{
+	padding:0;
+	margin:0;
+	}
+
+.holidays li{
+	padding:5px 0;
+	margin:0;
+	list-style:none;
+	background:url(../Images/dotted-line.png) repeat-x bottom left;
+	height:40px;
+	}
+
+.holidays li img{
+	padding:5px;
+	margin:0;
+	float:left;
+	}
+	
+.holidays li p{
+	padding:5px	;
+	margin:0;
+	float:left;
+	width:190px;
+	}
+	
+	
+	/* Vertical Blocks - smart tools
+--------------------------------------------------- */
+.smalltools{
+	width:245px;
+	height:100%;
+	margin-bottom:20px;
+	background-color:#f7f6f6;
+	padding:10px;
+	overflow:hidden;
+	}
+	
+.smalltools ul{
+	padding:0;
+	margin:0;
+	}
+
+.smalltools li{
+	padding:10px 0 0 20px;
+	margin:0;
+	list-style:none;
+	background:url(../Images/bullets.png) no-repeat left;
+	height:21px;
+	}
+
+.smalltools li a{
+	color:#000;
+	text-decoration:none;
+	}
+
+.smalltools li a:hover{
+	font-weight:bold;
+	color:#133d8c;
+	}
+
+	/* Vertical Blocks - Homejobs
+--------------------------------------------------- */
+.home-jobs{
+	width:245px;
+	height:100%;
+	margin-bottom:20px;
+	background-color:#f7f6f6;
+	padding:10px;
+	overflow:hidden;
+	}
+	
+.home-jobs ul{
+	padding:0;
+	margin:0;
+	}
+
+.home-jobs li{
+	padding:5px 0;
+	margin:0;
+	list-style:none;
+	background:url(../Images/dotted-line.png) repeat-x bottom left;
+	height:40px;
+	}
+	
+	/* Vertical Blocks - whats New at vertex
+--------------------------------------------------- */
+.home-news{
+	width:245px;
+	height:198px;
+	margin-bottom:20px;
+	background-color:#f7f6f6;
+	padding:10px;
+	overflow:hidden;
+	}
+	
+
+
+.home-news p{
+	padding:5px 0;
+	margin:0;
+	line-height:18px;
+	}
+	
+/* Banner Slider
+-------------------------------------------------------------- */
+
+
+.banner-bg{
+	background-color:#f7f7f7;
+	height:185px;
+	margin-bottom:10px;
+	border-top:#d3d3d3 solid 1px;
+	border-bottom:#d3d3d3 solid 1px;
+	}
+	
+.home-banner-ctr{
+	width:1120px;
+	margin:auto 0;
+	}
+	
+	
+#slider_container_2 { float: left; margin: 0; width: 1120px; position:relative; }
+
+.SliderName_2 {
+	float: left;
+	width: 1120px;
+	height: 185px;
+	overflow: hidden;
+}
+
+.SliderNamePrev_2 {
+	background:  no-repeat left center;
+	width: 50px;
+	height: 185px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+}
+
+.SliderNameNext_2 {
+	background: url(../Images/right.png) no-repeat right center;
+	width: 50px;
+	height: 185px;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-decoration: none;
+}
+
+#SliderNameNavigation_2 { margin:0; padding: 10px 0 0 0; height: 16px; text-align: right; position:absolute; right:10px; bottom:12px;}
+
+#SliderNameNavigation_2 a:link, #SliderNameNavigation_2 a:active, #SliderNameNavigation_2 a:visited, #SliderNameNavigation_2 a:hover{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	line-height: 0;
+	text-decoration: none;
+}
+
+#SliderNameNavigation_2 a img
+{
+	border: none;
+	width: 16px;
+	height: 16px;
+	background: url(../Images/bullet.png) no-repeat right top;
+}
+
+#SliderNameNavigation_2 a.active img
+{
+	background: url(../Images/bullet_active.png) no-repeat right top;
+}
+
+	
+
+/* Footer
+-------------------------------------------------------------- */
+.footer-bg{
+	background:url(../Images/footer-bg.jpg) repeat-x top left;
+	height:35px;
+	padding-top:20px
+	}
+	
+.copyright{
+	float:left;
+	color:#FFF;
+	
+	}
+	
+.power{
+	float:right;
+	color:#FFF;
+	}
+	
+/* innerpage CSS
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------- */
+
+.inner-banner{
+	background-color:#f7f7f7;
+	height:127px;
+	margin-bottom:10px;
+	border-top:#d3d3d3 solid 1px;
+	border-bottom:#d3d3d3 solid 1px;
+	}
+	
+.banner-comapny{
+	margin:auto 0;
+	background:url(../Images/banner_company.jpg) no-repeat left top;
+	height:127px;
+	width:1120px;
+	}
+.banner-TalentMgmt{
+	margin:auto 0;
+	background:url(../Images/banner-talent-management.jpg) no-repeat left top;
+	height:127px;
+	width:1120px;
+	}
+	.banner-TalentMgmt h2{
+	font-size:22px;
+	font-weight:bold;
+	padding:55px 0 0 10px;
+	text-align:left;
+	}
+	
+	
+.banner-comapny h2{
+	font-size:22px;
+	font-weight:bold;
+	padding:55px 0 0 10px;
+	text-align:left;
+	}
+
+.banner-Adminpage{
+	margin:auto 0;
+	background:url(../Images/banner-admin.jpg) no-repeat left top;
+	height:127px;
+	width:1120px;
+	}
+	.banner-Adminpage h2{
+	font-size:28px;
+	font-weight:bold;
+	padding:55px 0 0 10px;
+	text-align:left;
+	}
+	
+    .banner-Archives{
+	margin:auto 0;
+	background:url(../Images/archieves-banner.jpg) no-repeat left top;
+	height:127px;
+	width:1120px;
+	}
+	.banner-Archives h2{
+	font-size:22px;
+	font-weight:bold;
+	padding:55px 0 0 10px;
+	text-align:left;
+	}
+
+
+
+/* Innerpage Left Area CSS
+-------------------------------- */
+.inner-left{
+	float:left;
+	width:835px;
+	height:100%;
+	overflow:hidden;
+	margin-right:20px;
+	margin-bottom:10px;
+	}
+	
+.inner-left p{
+	padding:10px 0;
+	margin:0;
+	}
+
+.inner-left ul{
+	padding:0;
+	margin:0;
+	}	
+	
+.inner-left li{
+	margin: 0 30px;
+	padding:5px 0 0 25px;
+	background:url(../Images/bullets.png) no-repeat left;
+	list-style:none;
+	}	
+	
+	
+/* Innerpage Right Area CSS
+-------------------------------- */
+.inner-right{
+	float:left;
+	width:265px;
+	height:100%;
+	overflow:hidden;
+	margin-bottom:10px;
+	}
+	
+.right-menu-ctr{
+	padding:0;
+	margin:0;
+	}
+	
+.right-menu-ctr ul{
+	padding:0;
+	margin:0;
+	}	
+
+
+/*/.right-menu-ctr li{
+	margin:5px;
+	padding:5px 0 0 25px;
+	background:url('../Images/bullet.png') no-repeat left;
+	list-style:none;
+	}	*/
+	
+/*.right-menu-ctr li a{
+	color:#000;
+	text-decoration:none;
+
+	}
+	
+.right-menu-ctr li a:hover{
+	color:#133d8c;
+	text-decoration:none;
+	font-weight:bold;
+	}*/
+	 
+.right-menu-header{
+	background-color:#f16530;
+	height:20px;
+	padding:10px;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+	}
+	
+	/*-------------Override CSS----------------*/
+	#contentRow{
+	padding-top:0px;
+}
+#s4-bodyContainer{
+	padding-bottom:0px;
+	
+}
+
+
+/*gird header*/
+.grid-header{
+	background-color:#c3d9eb;
+	height:20px;
+	font-size:14px;
+	font-weight:bold;
+	border-bottom:#CCC solid 1px;
+	}
+	
+.grid-sub1{
+	background-color:#f7f7f7;
+	border-bottom:#FFF solid 1px;
+	height:25px;
+	font-size:13px;
+	}
+	
+.grid-sub2{
+	background-color:#e4eef6;
+	border-bottom:#FFF solid 1px;
+	height:25px;
+	font-size:13px;
+	}
+/* end grid style*/
+.inner-banner{
+	background-color:#f7f7f7;
+	height:127px;
+	margin-bottom:10px;
+	border-top:#d3d3d3 solid 1px;
+	border-bottom:#d3d3d3 solid 1px;
+	}
+	
+.banner-comapny{
+	margin:auto 0;
+	background:url(../images/banner_company.jpg) no-repeat left top;
+	height:127px;
+	width:1120px;
+	}
+	
+.banner-comapny h2{
+	font-size:22px;
+	font-weight:bold;
+	padding:55px 0 0 10px;
+	text-align:left;
+	}
+
+/* Innerpage Left Area CSS
+-------------------------------- */
+.inner-left{
+	float:left;
+	width:835px;
+	height:100%;
+	overflow:hidden;
+	margin-right:20px;
+	margin-bottom:10px;
+	}
+	
+.inner-left p{
+	padding:10px 0;
+	margin:0;
+	line-height:22px;
+	}
+
+.inner-left ul{
+	padding:0;
+	margin:0;
+	}	
+	
+.inner-left li{
+	margin: 0 30px;
+	padding:5px 0 0 25px;
+	background:url(../images/bullets.png) no-repeat left;
+	list-style:none;
+	line-height:22px;
+	}	
+	
+.inner-header{
+	height:30px;
+	margin:10px 0;
+	}
+	
+	
+/* Innerpage Right Area CSS
+-------------------------------- */
+.inner-right{
+	float:left;
+	width:265px;
+	height:100%;
+	overflow:hidden;
+	margin-bottom:10px;
+	}
+	
+.right-menu-ctr{
+	padding:0;
+	margin:0;
+	}
+	
+.right-menu-ctr ul{
+	padding:0;
+	margin:0;
+	}	
+
+
+.right-menu-ctr li{
+	margin:10px;
+	padding:3px 0 0 25px;
+	background:url(../images/bullet.jpg) no-repeat left top;
+	list-style:none;
+	}	
+	
+/*.right-menu-ctr li a{
+	color:#000;
+	text-decoration:none;
+	}
+	
+.right-menu-ctr li a:hover{
+	color:#133d8c;
+	text-decoration:none;
+	font-weight:bold;
+	}*/
+
+.right-menu-ctr li ul{
+	margin:0;
+	padding:0;
+	}	
+	
+.right-menu-ctr li li{
+	margin:5px 0 ;
+	padding:5px 0 0 25px;
+	background:url(../images/arrow.jpg) no-repeat left;
+	list-style:none;
+	}	
+	
+.right-menu-ctr li li a{
+	color:#000;
+	text-decoration:none;
+	}
+	
+.right-menu-ctr li li a:hover{
+	color:#133d8c;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+/*.list-active{
+	color:#000;
+	font-weight:bold;
+	}*/
+	 
+	 
+.right-menu-header{
+	background-color:#f16530;
+	height:15px;
+	padding:10px;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+	}
+
+
+
+.admin-ctnr{
+	padding:0;
+	margin:0;
+	}
+	
+.admin-ctnr ul{
+	padding:0;
+	margin:0;
+	}
+	
+
+.admin-ctnr li{
+	margin:10px;
+	padding:0 0 0 25px;
+	background:url(../images/arrow.jpg) no-repeat left top;
+	list-style:none;
+	}	
+	
+.admin-ctnr li a{
+	color:#000;
+	text-decoration:none;
+	}
+	
+.admin-ctnr li a:hover{
+	color:#133d8c;
+	text-decoration:none;
+	font-weight:bold;
+	}
+
+.admin-ctnr li ul{
+	margin:0;
+	padding:0;
+	}	
+	
+.admin-ctnr li li{
+	margin:5px 0 ;
+	padding:5px 0 0 25px;
+	background:url(../Images/round-bullet.jpg) no-repeat left;
+	list-style:none;
+	}	
+	
+.admin-ctnr li li a{
+	color:#000;
+	text-decoration:none;
+	}
+	
+.admin-ctnr li li a:hover{
+	color:#133d8c;
+	text-decoration:none;
+	font-weight:bold;
+	}
+
+
+/* Employee info Form
+-------------------------------- */
+.empform-main-header {
+    background-color: #CCC;
+    font-size: 13px;
+    font-weight: bold;
+    color: #133d8c;
+    text-transform: uppercase;
+    height: 15px;
+    cursor: pointer;
+}
+
+.empform-ctr {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+
+.emp-textbox {
+    background-color: #FFF;
+    border: #CCC solid 1px;
+    width: 200px;
+    height: 20px;
+}
+
+/* Innerpage Right Area list first level 1 
+------------------------------------------ */
+	
+.right-menu-ctr ul{
+	padding:0;
+	margin:0;
+	}	
+
+
+.right-menu-ctr li{
+	margin:10px;
+	padding:3px 0 0 25px;
+	background:url(../images/bullet.jpg) no-repeat left top;
+	list-style:none;
+	}	
+	
+.right-menu-ctr li a{
+	color:#000;
+	text-decoration:none;
+	}
+	
+.right-menu-ctr li a:hover{
+	color:#133d8c;
+	text-decoration:none;
+	font-weight:bold;
+	}
+
+/* Innerpage Right Area list sub level 2
+------------------------------------------ */
+
+.right-menu-ctr li ul{
+	margin:0;
+	padding:0;
+	}	
+	
+.right-menu-ctr li li{
+	margin:5px 0 ;
+	padding:0 0 0 20px;
+	background:url(../images/arrow.jpg) no-repeat left top;
+	list-style:none;
+	font-size:13px;
+	}	
+	
+.right-menu-ctr li li a{
+	color:#000;
+	text-decoration:none;
+	}
+	
+.right-menu-ctr li li a:hover{
+	color:#133d8c;
+	text-decoration:none;
+	font-weight:bold;
+	}
+/* Innerpage Right Area list level 3 (India's last level)
+------------------------------------------ */	
+	
+.right-menu-ctr li ul li ul{
+	margin:0;
+	padding:0;
+	}	
+	
+.right-menu-ctr li li li{
+	margin:8px 0 ;
+	padding:0 0 0 20px;
+	background:url(../images/round-bullet.jpg) no-repeat left top;
+	list-style:none;
+	font-size:13px;
+	}	
+	
+.right-menu-ctr li li li a{
+	color:#0F0;
+	text-decoration:none;
+	}
+	
+.right-menu-ctr li li li a:hover{
+	color:#133d8c;
+	text-decoration:none;
+	font-weight:bold;
+
+	}
+	
+.list-active{
+	color:#000;
+	font-weight:bold;
+	font-size:12px;
+	}
+	
+ 
+/* Innerpage Right Area list level 4 (US last level)
+------------------------------------------ */	 
+	
+.right-menu-ctr li ul li ul{
+	margin:0;
+	padding:0;
+	}	
+	
+.right-menu-ctr li li li li{
+	margin:8px 0 ;
+	padding:0 0 0 20px;
+	background:url(../images/mini-bullet.jpg) no-repeat left top;
+	list-style:none;
+	font-size:12px;
+	}	
+	
+.right-menu-ctr li li li a{
+	color:#000;
+	text-decoration:none;
+	
+	}
+	
+.right-menu-ctr li li li a:hover{
+	color:#133d8c;
+	text-decoration:none;
+	font-weight:bold;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Created by Ramya */
+
+.emp-Dropdown {
+    background-color: #FFF;
+    border: #CCC solid 1px;
+    width: 213px;
+    height: 25px;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    vertical-align: middle;
+}
+
+.emp-Attachment {
+    background-color: #FFF;
+    border: #CCC solid 1px;
+    width: 210px;
+    height: 25px;
+}
+
+
+
+.emp-button {
+    background-color: #f16530;
+    border: #f16530 solid 1px;
+    color: #FFF;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    cursor:pointer;
+}
+
+.emp-messagebox {
+    background-color: #FFF;
+    border: #CCC solid 1px;
+    width: 375px;
+    height: 60px;
+}
+
+.certification-grid {
+    background-color: #e6e1e1;
+    border-bottom: #CCC solid 1px;
+}
+
+    .certification-grid a {
+        color: #133d8c;
+    }
+
+
+/* Company - ODC Profiles 
+-------------------------------- */
+.odcprofile-ctr{
+	overflow:hidden;
+	padding:10px ;
+	}
+
+.odcprofile-pic-ctr {
+	border:#e7e7e7 solid 1px;
+	width:100px;
+	height:100px;
+	margin-right:10px;
+	float:left;
+	}
+	
+.odcprofile-intro-ctr {
+	width:700px;
+	height:100%;
+	overflow:hidden;
+	float:left;
+	}
+	
+.odcprofile-intro-ctr h2 {
+	font-size:16px;
+	text-transform:uppercase;
+	padding:0;
+	margin:0;
+	}
+	
+.odcprofile-ctr-2{
+	overflow:hidden;
+	margin-bottom:10px;
+	width:710px;
+	padding-left:120px;
+	}
+	
+.odcprofile-ctr-2 h3{
+	font-size:14px;
+	text-transform:uppercase;
+	padding:0;
+	margin:0;
+	}
+	
+.odc-basicinfo-grid{
+	background:#eef8ff;
+	padding:0;
+	clear:both;
+	margin: 10px 0 ;
+	
+	}
+	
+.bold-text{
+	font-weight:bold;
+	}
+	
+.question1{
+	background-color:#f7f6f6;
+	padding:5px;
+	margin:10px 0;
+	}
+	
+.question1 p{
+	padding:0;
+	margin:0;
+	line-height:22px;
+	}
+	
+.question2{
+	background-color:#eef8ff;
+	padding:5px;
+	margin:10px 0;
+	}
+	
+.question2 p{
+	padding:0;
+	margin:0;
+	line-height:22px;
+	}
+	
+.certification-ctnr{
+	padding:5px;
+	margin:0;
+	
+	}
+	
+.certification-grid1{
+	background-color:#f7f6f6;
+	border-bottom:#FFF solid 1px;
+	height:20px;
+	
+	
+	}
+	
+.certification-grid2{
+	background-color:#eef8ff;
+	border-bottom:#FFF solid 1px;
+	height:20px;
+	
+	
+	}
+
+/* Defalt CSS Given by Srinivas
+-------------------------------- */
+.ms-viewheadertr{
+background-color:#c3d9eb;
+height:20px;
+font-size:12px;
+font-weight:bold;
+border-bottom:#CCC solid 1px;}
+
+.ms-headerSortTitleLink
+{
+
+font-size:12px;
+font-weight:bold;
+color:black;
+}
+
+.ms-headerSortTitleLink A
+{
+
+font-size:12px;
+font-weight:bold;
+color:black;
+}
+.ms-vh
+{
+font-size:12px;
+font-weight:bold;
+color:black;
+
+}
+
+.ms-vh-div{
+font-size:12px;
+font-weight:bold;
+color:black;
+
+}
+.ms-vh A
+{
+font-size:12px;
+font-weight:bold;
+color:black;
+
+}
+.ms-vh2 A
+{
+font-size:12px;
+font-weight:bold;
+color:black;
+
+}
+
+.ms-listviewtable > tbody > tr.ms-alternating {
+background-color:#e4eef6;
+border-bottom:#FFF solid 1px;
+height:25px;
+font-size:13px;
+
+}
+
+.ms-listviewtable > tbody > tr.ms-alternatingstrong {
+background-color:#e4eef6;
+border-bottom:#FFF solid 1px;
+height:25px;
+font-size:13px;
+
+}
+
+.ms-listviewtable > tbody > tr {
+background: #f7f7f7; }

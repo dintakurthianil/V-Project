@@ -1,0 +1,83 @@
+/*
+
+Craftyslide CSS Styles
+
+*/
+
+#slideshow {
+
+	margin:0;
+	padding:0;
+	position:relative;
+	
+}
+
+#slideshow ul {
+
+	position:relative;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+#slideshow ul li {
+
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#slideshow ul li img{
+	width:100px !important;
+	height:100px !important;
+	top:0;
+	left:0;
+
+}
+
+#pagination {
+	clear:both;
+	width:75px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:-30px;
+	top:440px;
+	
+}
+
+#pagination li {
+	list-style:none;
+	float:left;
+	margin:0 2px;
+}
+
+#pagination li a {
+	display:block;
+	width:10px;
+	height:10px;
+	text-indent:-10000px;
+	background:url(../Images/pagination.png);
+}
+
+#pagination li a.active {
+	background-position:0 10px;
+}
+
+.caption {
+	width:100%;
+	margin:0;
+	padding:10px;
+	position:absolute;
+	left:0;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:lighter;
+	color:#fff;
+	border-top:1px solid #000;
+	background:rgba(0,0,0,0.6);
+}
+
+
